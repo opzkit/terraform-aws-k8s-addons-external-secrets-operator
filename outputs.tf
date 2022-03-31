@@ -25,8 +25,8 @@ output "permissions" {
 
 output "addon" {
   value = {
-    name : "kubernetes-external-secrets"
-    version : "0.3.10"
-    content : local.kubernetes_external_secrets_yaml
+    name : "external-secrets"
+    version : "0.4.4"
+    content : local.external_secrets_yaml
   }
 }
