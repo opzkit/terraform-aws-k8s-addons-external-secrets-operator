@@ -26,7 +26,7 @@ output "permissions" {
 output "addon" {
   value = {
     name : "external-secrets"
-    version : "0.5.9"
+    version : "0.6.0"
     content : local.external_secrets_yaml
   }
 }
