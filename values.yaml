@@ -20,3 +20,19 @@ extraVolumes:
 extraVolumeMounts:
 - mountPath: "/var/run/secrets/amazonaws.com/serviceaccount/"
   name: aws-token
+resources:
+  requests:
+    cpu: 10m
+    memory: 32Mi
+
+webhook:
+  resources:
+    requests:
+      cpu: 10m
+      memory: 32Mi
+
+certController:
+  resources:
+    requests:
+      cpu: 10m
+      memory: 32Mi
