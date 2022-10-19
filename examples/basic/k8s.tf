@@ -23,10 +23,7 @@ resource "aws_iam_role" "kubernetes_admin" {
 }
 
 module "external_secrets" {
-  source     = "../../"
-  account_id = local.account_id
-  name       = local.name
-  region     = local.region
+  source = "../../"
 }
 
 module "state_store" {
