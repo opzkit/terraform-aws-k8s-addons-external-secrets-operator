@@ -24,6 +24,7 @@ resource "aws_iam_role" "kubernetes_admin" {
 
 module "external_secrets" {
   source = "../../"
+  region = local.region
 }
 
 module "state_store" {
@@ -59,7 +60,6 @@ module "k8s" {
   service_account_external_permissions = [
     module.external_secrets.permissions
   ]
-  extra_addons = [
-    module.external_secrets.addon
-  ]
+  extra_addons = module.external_secrets.addons
+
 }

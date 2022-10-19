@@ -23,10 +23,17 @@ output "permissions" {
   }
 }
 
-output "addon" {
-  value = {
-    name : "external-secrets"
-    version : "0.6.0"
-    content : local.external_secrets_yaml
-  }
+output "addons" {
+  value = [
+    {
+      name : "external-secrets"
+      version : "0.6.0.1"
+      content : local.external_secrets_yaml
+    },
+    {
+      name : "external-secrets-store"
+      version : "0.0.1"
+      content : local.external_secrets_store_yaml
+    },
+  ]
 }
