@@ -18,9 +18,21 @@ Then template the chart to file
 helm template external-secrets external-secrets/external-secrets -n kube-system --values values.yaml >| external-secrets.yaml
 ```
 
-And lastly add the cluster secret store
-```shell
-cat cluster-secret-store.yaml >> external-secrets.yaml
-```
-
 Check the changes and if everything looks correct, commit, push and PR.
+
+## Releasing
+Make sure to update the `version` for the `external-secrets` addon to match the planned tag/release version before
+tagging the commit.
+
+```terraform
+
+output "addons" {
+  value = [
+    {
+      name : "external-secrets"
+      version : "0.6.0"
+      content : local.external_secrets_yaml
+    },
+  ]
+}
+```
