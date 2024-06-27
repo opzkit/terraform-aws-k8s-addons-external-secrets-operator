@@ -30,3 +30,4 @@ override.tf.json
 
 examples/**/.terraform.lock.hcl
 .idea
+external-secrets/charts
