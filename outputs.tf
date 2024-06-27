@@ -27,7 +27,7 @@ output "addons" {
   value = [
     {
       name : "external-secrets"
-      version : "0.9.9"
+      version : local.version
       content : local.external_secrets_yaml
     },
     {
