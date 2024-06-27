@@ -38,6 +38,6 @@ jobs:
       id: helm
 
     - name: Run Updatecli in apply mode
-      run: "updatecli apply --config ./updatecli/updatecli.d --values updatecli/values.yaml"
+      run: "updatecli --experimental apply --config ./updatecli/updatecli.d --values updatecli/values.yaml"
       env:
         UPDATECLI_GITHUB_TOKEN: "${{ secrets.UPDATECLI_GITHUB_TOKEN }}"
