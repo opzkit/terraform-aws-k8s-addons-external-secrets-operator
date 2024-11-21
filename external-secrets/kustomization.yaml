@@ -5,7 +5,7 @@ helmCharts:
 - name: external-secrets
   namespace: kube-system
   repo: https://charts.external-secrets.io
-  version: '0.10.5'
+  version: '0.10.6'
   releaseName: external-secrets
   includeCRDs: true
   valuesFile: values.yaml
