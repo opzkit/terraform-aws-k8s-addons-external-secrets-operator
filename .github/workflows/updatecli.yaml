@@ -37,7 +37,15 @@ jobs:
     - uses: azure/setup-helm@v4.2.0
       id: helm
 
+    - name: Get token
+      id: get_token
+      uses: actions/create-github-app-token@67e27a7eb7db372a1c61a7f9bdab8699e9ee57f7 # v1
+      with:
+        app-id: ${{ secrets.UPDATECLI_APP_ID }}
+        private-key: ${{ secrets.UPDATECLI_PRIVATE_KEY }}
+        owner: ${{ github.repository_owner }}
+
     - name: Run Updatecli in apply mode
       run: "updatecli --experimental apply --config ./updatecli/updatecli.d --values updatecli/values.yaml --clean=true"
       env:
-        UPDATECLI_GITHUB_TOKEN: "${{ secrets.UPDATECLI_GITHUB_TOKEN }}"
+        UPDATECLI_GITHUB_TOKEN: '${{ steps.get_token.outputs.token }}'
