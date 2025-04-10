@@ -9,19 +9,22 @@ provider "aws" {
   region                      = "eu-west-1"
   access_key                  = "mock_access_key"
   secret_key                  = "mock_secret_key"
+  endpoints {
+    ec2 = "http://localhost:4566"
+  }
 }
 
 terraform {
   required_providers {
     kops = {
-      source  = "eddycharly/kops"
-      version = "~> 1.21"
+      source  = "terraform-kops/kops"
+      version = "~> 1.31"
     }
 
     aws = {
       source  = "hashicorp/aws"
-      version = "~> 3.0"
+      version = "~> 5.0"
     }
   }
-  required_version = ">= 1.1.9"
+  required_version = ">= 1.3"
 }
