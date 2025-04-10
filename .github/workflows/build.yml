@@ -20,7 +20,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
       - name: Start LocalStack
-        uses: LocalStack/setup-localstack@v0.2.3
+        uses: LocalStack/setup-localstack@9392b05ddb345894c2e86305fc426566e738c1db # v0.2.4
         with:
           image-tag: 'latest'
           install-awslocal: 'true'
