@@ -33,7 +33,7 @@ module "state_store" {
 }
 
 module "k8s-network" {
-  source              = "github.com/opzkit/terraform-aws-k8s-network?ref=v0.1.0"
+  source              = "github.com/opzkit/terraform-aws-k8s-network?ref=v0.1.1"
   name                = local.name
   region              = local.region
   public_subnet_zones = ["a", "b", "c"]
