@@ -1,5 +1,22 @@
 # Changelog
 
+## [0.16.1](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/compare/v0.16.0...v0.16.1) (2025-05-15)
+
+
+### Bug Fixes
+
+* update apiVersion for ClusterSecretStore ([#112](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/issues/112)) ([e66a1c5](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/commit/e66a1c5631104be823da9ca914834a872aaf603f))
+
+
+### Miscellaneous Chores
+
+* **deps:** update actions/create-github-app-token digest to 30bf625 ([#108](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/issues/108)) ([3008450](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/commit/300845054e1d97f910e661a01e1dc5b53c19900b))
+* **deps:** update actions/create-github-app-token digest to db3cdf4 ([#109](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/issues/109)) ([1d6a55b](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/commit/1d6a55bfd2dcf5001c7bfe8a51db30c5b8fa02b3))
+* **deps:** update actions/create-github-app-token digest to df432ce ([#110](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/issues/110)) ([d86363f](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/commit/d86363fe4310535df7244414784770de1b9368a0))
+* **deps:** update actions/setup-python action to v5.6.0 ([#106](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/issues/106)) ([07dfd47](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/commit/07dfd47fe5b787aa6a87ca6071fc028f0fcaa37c))
+* **deps:** update External Secrets Operator version to 0.16.2 ([#111](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/issues/111)) ([07724e4](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/commit/07724e4db45a66a617b82f66e0fff2c001e6360b))
+* **deps:** update External Secrets Operator version to 0.17.0 ([#113](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/issues/113)) ([5e1eb9c](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/commit/5e1eb9cd8b86e6d3af35bb0b4243deb244c3f82a))
+
 ## [0.16.0](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/compare/v0.15.1...v0.16.0) (2025-04-17)
 
 
