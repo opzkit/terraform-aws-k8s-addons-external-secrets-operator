@@ -1,5 +1,15 @@
 # Changelog
 
+## [0.16.3](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/compare/v0.16.2...v0.16.3) (2025-06-18)
+
+
+### Miscellaneous Chores
+
+* **deps:** update External Secrets Operator version to 0.18.0 ([#123](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/issues/123)) ([d3b39aa](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/commit/d3b39aadd0d53a96421a3c48c923fea1a4cabc0c))
+* **deps:** update pre-commit hook antonbabenko/pre-commit-terraform to v1.99.1 ([#118](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/issues/118)) ([cae6980](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/commit/cae69802790f36a872541a6274fa5407c8d9784c))
+* **deps:** update pre-commit hook antonbabenko/pre-commit-terraform to v1.99.3 ([#121](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/issues/121)) ([3bcd8f4](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/commit/3bcd8f4d0e7856d59465bb8157cddee0aa8e6b24))
+* **deps:** update pre-commit hook antonbabenko/pre-commit-terraform to v1.99.4 ([#122](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/issues/122)) ([e9c6b9e](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/commit/e9c6b9ea5f7e18c884bdfce4f83265a0d751ddca))
+
 ## [0.16.2](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/compare/v0.16.1...v0.16.2) (2025-05-17)
 
 
