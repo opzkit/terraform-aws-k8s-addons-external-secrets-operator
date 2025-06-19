@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.16.4](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/compare/v0.16.3...v0.16.4) (2025-06-19)
+
+
+### Miscellaneous Chores
+
+* **deps:** update terraform aws to v6 ([#124](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/issues/124)) ([dc528e4](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/commit/dc528e4f695ade34c34d1d947c4249bcb4bccca2))
+
 ## [0.16.3](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/compare/v0.16.2...v0.16.3) (2025-06-18)
 
 
