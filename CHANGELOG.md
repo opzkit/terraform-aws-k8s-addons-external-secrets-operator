@@ -1,5 +1,15 @@
 # Changelog
 
+## [0.16.9](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/compare/v0.16.8...v0.16.9) (2025-08-12)
+
+
+### Miscellaneous Chores
+
+* **deps:** update actions/checkout action to v5 ([#142](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/issues/142)) ([888ba69](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/commit/888ba69be13043183755160ac0bce919d2af0a30))
+* **deps:** update actions/create-github-app-token digest to a8d6161 ([#143](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/issues/143)) ([f9fcb88](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/commit/f9fcb88db1544a1f68137bdac8a8b15405b83c4b))
+* **deps:** update pre-commit hook pre-commit/pre-commit-hooks to v6 ([#138](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/issues/138)) ([c707989](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/commit/c70798907a5b73e6e9c4ecdc554324527aec22a1))
+* **deps:** update terraform-linters/setup-tflint action to v5 ([#144](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/issues/144)) ([1fff741](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/commit/1fff741ec9f2eca5c0a7e30027eed30f321d583d))
+
 ## [0.16.8](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/compare/v0.16.7...v0.16.8) (2025-08-09)
 
 
