@@ -1,5 +1,18 @@
 # Changelog
 
+## [0.16.10](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/compare/v0.16.9...v0.16.10) (2025-10-04)
+
+
+### Miscellaneous Chores
+
+* add renovate pre-commit check ([#155](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/issues/155)) ([5b3404d](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/commit/5b3404d1b091c7ee43938aff9e12ee20a7edb6d1))
+* **deps:** update External Secrets Operator version to 0.20.2 ([#159](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/issues/159)) ([98d6935](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/commit/98d69354b575e638526b9e65886e055d822c46ea))
+* **deps:** update pre-commit hook alessandrojcm/commitlint-pre-commit-hook to v9.23.0 ([#156](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/issues/156)) ([dbb38f2](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/commit/dbb38f2994e240c4ffe92c8af56caff91c4baf16))
+* **deps:** update pre-commit hook antonbabenko/pre-commit-terraform to v1.100.1 ([#152](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/issues/152)) ([3ce8fb7](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/commit/3ce8fb778b9d6e50d0e056b91d8ed2644279915d))
+* **deps:** update pre-commit hook antonbabenko/pre-commit-terraform to v1.101.0 ([#154](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/issues/154)) ([c87b568](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/commit/c87b56832c3c6ebc50f10b7659df26485c5d04fa))
+* **deps:** update terraform-linters/setup-tflint action to v6 ([#157](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/issues/157)) ([65dda70](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/commit/65dda7071bbfdf0ee6a4df5820f7638b8689422d))
+* **deps:** update terraform-linters/setup-tflint action to v6.1.0 ([#158](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/issues/158)) ([eaf8ec7](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/commit/eaf8ec7b57fb662d4fb26e97a5fb92a464d2879f))
+
 ## [0.16.9](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/compare/v0.16.8...v0.16.9) (2025-09-23)
 
 
