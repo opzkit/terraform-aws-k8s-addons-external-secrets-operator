@@ -3,17 +3,6 @@
   "extends": [
     "local>opzkit/renovate-config"
   ],
-  "packageRules": [
-    {
-      "description": "Schedule Renovate pre-commit hook updates daily (0:00-1:59)",
-      "matchPackageNames": [
-        "renovatebot/pre-commit-hooks"
-      ],
-      "schedule": [
-        "* 0-1 * * *"
-      ]
-    }
-  ],
   "kustomize": {
     "enabled": false
   }
