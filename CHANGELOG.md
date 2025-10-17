@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.16.12](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/compare/v0.16.11...v0.16.12) (2025-10-17)
+
+
+### Miscellaneous Chores
+
+* **config:** remove outdated package rules for Renovate ([#190](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/issues/190)) ([044c8e2](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/commit/044c8e2124356ce12bd1b091dd43ebb47a904786))
+* **deps:** update pre-commit hook antonbabenko/pre-commit-terraform to v1.103.0 ([#192](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/issues/192)) ([43135bd](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/commit/43135bde20c706748e0a74bd216028504dabf55d))
+
 ## [0.16.11](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/compare/v0.16.10...v0.16.11) (2025-10-15)
 
 
