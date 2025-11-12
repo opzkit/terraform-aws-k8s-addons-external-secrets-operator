@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.16.14](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/compare/v0.16.13...v0.16.14) (2025-11-12)
+
+
+### Miscellaneous Chores
+
+* **workflows:** enhance PR automerge with dynamic token retrieval ([#199](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/issues/199)) ([f911cc2](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/commit/f911cc2b72514438b8696fd8e5dc5888995f77b4))
+
 ## [0.16.13](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/compare/v0.16.12...v0.16.13) (2025-11-09)
 
 
