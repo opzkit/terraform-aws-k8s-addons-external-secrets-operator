@@ -1,5 +1,20 @@
 # Changelog
 
+## [0.16.14](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/compare/v0.16.13...v0.16.14) (2025-11-22)
+
+
+### Miscellaneous Chores
+
+* **deps:** update actions/checkout action to v5.0.1 ([#204](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/issues/204)) ([04869f5](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/commit/04869f5045351080216ecdbe08b14843daecb76d))
+* **deps:** update actions/checkout action to v6 ([#206](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/issues/206)) ([736cd4a](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/commit/736cd4a1c1396a78a2f38fc97425b4b274001522))
+* **deps:** update actions/checkout digest to 93cb6ef ([#203](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/issues/203)) ([21b55ef](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/commit/21b55ef81819f79b59c4f52a9049890cc7ea28c3))
+* **deps:** update actions/create-github-app-token digest to 7e473ef ([#208](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/issues/208)) ([b2901ed](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/commit/b2901ed26af93aad6109f0e59d7d760810cf14b6))
+* **deps:** update External Secrets Operator version to 1.1.0 ([#207](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/issues/207)) ([fdf4044](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/commit/fdf40445981fa41d7bdeb7c219d24d7c35c52586))
+* **deps:** update pre-commit hook antonbabenko/pre-commit-terraform to v1.104.0 ([#205](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/issues/205)) ([9920fd8](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/commit/9920fd8f465279c6b05a1e96a930aad7a942b83b))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v41.173.1 ([#201](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/issues/201)) ([5c8c19b](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/commit/5c8c19b7d0857be6409d7b3384e617c0981f609f))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v42 ([#202](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/issues/202)) ([c6b2b39](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/commit/c6b2b39157f09d777a054823b44e2ca9e7b13bd7))
+* **workflows:** enhance PR automerge with dynamic token retrieval ([#199](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/issues/199)) ([f911cc2](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/commit/f911cc2b72514438b8696fd8e5dc5888995f77b4))
+
 ## [0.16.13](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/compare/v0.16.12...v0.16.13) (2025-11-09)
 
 
