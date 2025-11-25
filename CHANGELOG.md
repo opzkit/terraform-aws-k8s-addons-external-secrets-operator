@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.16.15](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/compare/v0.16.14...v0.16.15) (2025-11-25)
+
+
+### Miscellaneous Chores
+
+* **deps:** update actions/setup-python action to v6.1.0 ([#211](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/issues/211)) ([d05763d](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/commit/d05763d2b60ac892f5aae37a690dd2d5d5820d2c))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v42.19.3 ([#209](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/issues/209)) ([9ca9229](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/commit/9ca92292f27f1277c9753f75fa99335ad93c55d7))
+
 ## [0.16.14](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/compare/v0.16.13...v0.16.14) (2025-11-22)
 
 
