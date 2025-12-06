@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.16.15](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/compare/v0.16.14...v0.16.15) (2025-12-06)
+
+
+### Miscellaneous Chores
+
+* **deps:** update actions/checkout action to v6.0.1 ([#214](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/issues/214)) ([bcb37b1](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/commit/bcb37b1fee2c654989db6fdd2f96765b19750f04))
+* **deps:** update actions/checkout digest to 8e8c483 ([#213](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/issues/213)) ([44a012c](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/commit/44a012cc694ca9071e3817e4c2d91a1e0911ab1a))
+* **deps:** update actions/create-github-app-token digest to 29824e6 ([#216](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/issues/216)) ([a7335ed](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/commit/a7335edfc9acdeb1b18902e36a2c09b0dae92975))
+* **deps:** update actions/setup-python action to v6.1.0 ([#211](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/issues/211)) ([d05763d](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/commit/d05763d2b60ac892f5aae37a690dd2d5d5820d2c))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v42.19.3 ([#209](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/issues/209)) ([9ca9229](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/commit/9ca92292f27f1277c9753f75fa99335ad93c55d7))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v42.27.0 ([#212](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/issues/212)) ([da75000](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/commit/da7500029d150979a6ffc9bf7c4b41c18fc094da))
+
 ## [0.16.14](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/compare/v0.16.13...v0.16.14) (2025-11-22)
 
 
