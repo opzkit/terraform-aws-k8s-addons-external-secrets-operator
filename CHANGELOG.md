@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.16.16](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/compare/v0.16.15...v0.16.16) (2025-12-20)
+
+
+### Miscellaneous Chores
+
+* **deps:** update External Secrets Operator version to 1.2.0 ([#224](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/issues/224)) ([89c8e4e](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/commit/89c8e4e319149c2afab409ec39cd28941a5f05e2))
+* update helm version to 3.19.4 in workflow ([#222](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/issues/222)) ([0ebbd0e](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/commit/0ebbd0e65c40848f738edb2997176bc14af1ea00))
+
 ## [0.16.15](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/compare/v0.16.14...v0.16.15) (2025-12-08)
 
 
