@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.16.22](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/compare/v0.16.21...v0.16.22) (2026-02-22)
+
+
+### Miscellaneous Chores
+
+* **deps:** update External Secrets Operator version to 2.0.1 ([#251](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/issues/251)) ([7934b22](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/commit/7934b2238e808c437f026750acff15774ca4b530))
+
 ## [0.16.21](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/compare/v0.16.20...v0.16.21) (2026-02-18)
 
 
