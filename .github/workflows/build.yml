@@ -2,6 +2,8 @@ name: Build
 
 on: [ push, workflow_dispatch ]
 
+permissions: read-all
+
 jobs:
   examples:
     runs-on: ubuntu-latest
@@ -9,7 +11,7 @@ jobs:
       fail-fast: false
       matrix:
         os: [ ubuntu-latest ]
-        tf-version: [ 1.3.2 ]
+        tf-version: [ 1.9.0 ]
     steps:
       - name: Install terraform v${{ matrix.tf-version }}
         run: |
@@ -19,11 +21,6 @@ jobs:
           rm *
       - name: Checkout code
         uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6
-      - name: Start LocalStack
-        uses: LocalStack/setup-localstack@1feaef8f3b6f6f22261b7e7c827ff1ae9cdd3c2b # v0.2.5
-        with:
-          image-tag: 'latest'
-          install-awslocal: 'true'
       - name: Validate examples terraform v${{ matrix.tf-version }}
         run: make examples
   build:

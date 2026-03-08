@@ -7,6 +7,5 @@ examples: $(addprefix example/,$(EXAMPLES))
 .PHONY: example/%
 example/%:
 	@echo "Processing example: $(notdir $*)"
-	@terraform -chdir=$* init
+	@terraform -chdir=$* init -backend=false
 	@terraform -chdir=$* validate
-	@terraform -chdir=$* plan

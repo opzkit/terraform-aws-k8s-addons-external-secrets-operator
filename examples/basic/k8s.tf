@@ -33,8 +33,8 @@ module "state_store" {
 }
 
 module "k8s-network" {
-  source              = "github.com/opzkit/terraform-aws-k8s-network?ref=v0.1.2"
-  name                = local.name
+  source              = "github.com/opzkit/terraform-aws-k8s-network?ref=v0.2.1"
+  name                = "network"
   region              = local.region
   public_subnet_zones = ["a", "b", "c"]
   vpc_cidr            = "172.20.0.0/16"
@@ -42,17 +42,23 @@ module "k8s-network" {
 
 module "k8s" {
   depends_on         = [module.state_store]
-  source             = "github.com/opzkit/terraform-aws-k8s?ref=v0.19.2"
+  source             = "github.com/opzkit/terraform-aws-k8s?ref=v0.32.1"
   name               = local.name
   region             = local.region
   dns_zone           = local.zone
-  kubernetes_version = "1.31.4"
-  master_count       = 3
+  kubernetes_version = "1.34.5"
+  control_plane = {
+    types = ["t3.medium"]
+  }
+  node_groups = {
+    nodes = {
+      types = ["t3.medium"]
+    }
+  }
   vpc_id             = module.k8s-network.vpc.id
-  public_subnet_ids  = module.k8s-network.public_subnets
+  public_subnets     = module.k8s-network.subnets["public"]
   iam_role_mappings  = { (aws_iam_role.kubernetes_admin.arn) : "system:masters" }
   bucket_state_store = module.state_store.bucket
-  admin_ssh_key      = "../dummy_ssh_private"
   service_account_external_permissions = [
     module.external_secrets.permissions
   ]
