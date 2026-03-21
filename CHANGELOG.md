@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.16.24](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/compare/v0.16.23...v0.16.24) (2026-03-21)
+
+
+### Miscellaneous Chores
+
+* **deps:** update actions/create-github-app-token action to v3 ([#263](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/issues/263)) ([4ae5a72](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/commit/4ae5a7278a5b0a0fd1a4c4d602d668cc242b3333))
+* **deps:** update actions/create-github-app-token digest to fee1f7d ([#261](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/issues/261)) ([39e0aa3](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/commit/39e0aa3329e981c4c6a813604e79b7a36807bf10))
+* **deps:** update External Secrets Operator version to 2.2.0 ([#265](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/issues/265)) ([3621f7a](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/commit/3621f7a0df0077e624c661f3023e7c7332a8c767))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v43.59.4 ([#259](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/issues/259)) ([a0b3e60](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/commit/a0b3e60d8eb1c7b2413e56122fbac73e90ad8029))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v43.76.2 ([#264](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/issues/264)) ([d6a3417](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/commit/d6a3417e962665c4fcb5ce483600c09ccecc0dfb))
+* **deps:** update terraform-linters/setup-tflint action to v6.2.2 ([#262](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/issues/262)) ([1e8c557](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/commit/1e8c5573652e138e776fe53faf654766df3944b8))
+
 ## [0.16.23](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/compare/v0.16.22...v0.16.23) (2026-03-08)
 
 
