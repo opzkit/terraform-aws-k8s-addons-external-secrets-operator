@@ -1,5 +1,15 @@
 # Changelog
 
+## [0.16.25](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/compare/v0.16.24...v0.16.25) (2026-04-13)
+
+
+### Miscellaneous Chores
+
+* **deps:** update azure/setup-helm action to v5 ([#266](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/issues/266)) ([7b72dbb](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/commit/7b72dbb9aa5d4f4712367983613f7809878ee2b1))
+* **deps:** update azure/setup-kubectl action to v5 ([#268](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/issues/268)) ([549b753](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/commit/549b753def9f4d89972d7cd5b649f4b2834b3567))
+* **deps:** update External Secrets Operator version to 2.3.0 ([#270](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/issues/270)) ([99890a5](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/commit/99890a5eec4fa40f1b39ffe61b04b23ae3833d53))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v43.99.1 ([#269](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/issues/269)) ([5d7106c](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/commit/5d7106c573526723e01cd62fbb17d6b43e06f0c5))
+
 ## [0.16.24](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/compare/v0.16.23...v0.16.24) (2026-03-21)
 
 
