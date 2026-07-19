@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.16.31](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/compare/v0.16.30...v0.16.31) (2026-07-19)
+
+
+### Miscellaneous Chores
+
+* **deps:** update actions/setup-python action to v6.3.0 ([#312](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/issues/312)) ([64f6009](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/commit/64f6009c6ef06f20281ab68a6ee76b1b0fa77d9a))
+* **deps:** update dependency helm to v4.2.3 ([#316](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/issues/316)) ([fe9edf6](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/commit/fe9edf691994b9b2a228412fd45cbea525b5d7cc))
+* **deps:** update External Secrets Operator version to 2.8.0 ([#318](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/issues/318)) ([a23cc2e](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/commit/a23cc2e351fb5cf51dd0c134a56404d347afe70b))
+* **deps:** update pre-commit hook alessandrojcm/commitlint-pre-commit-hook to v9.26.0 ([#314](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/issues/314)) ([f315c23](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/commit/f315c234e8c2595c20835a6f342b6d4406bcdfeb))
+* **deps:** update terraform-linters/setup-tflint action to v6.3.0 ([#315](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/issues/315)) ([b58806b](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/commit/b58806bf6ccbdc1166e497c3a6fadefcac794c3a))
+* **deps:** update updatecli/updatecli-action action to v3.4.0 ([#317](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/issues/317)) ([d4bba88](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/commit/d4bba88ad8e9bdc1807aa8ea3aaadae0ab5e4626))
+
 ## [0.16.30](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/compare/v0.16.29...v0.16.30) (2026-06-26)
 
 
