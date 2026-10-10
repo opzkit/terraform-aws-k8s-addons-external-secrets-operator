@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.16.36](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/compare/v0.16.35...v0.16.36) (2026-10-10)
+
+
+### Miscellaneous Chores
+
+* **deps:** update azure/setup-kubectl digest to bda439f ([#353](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/issues/353)) ([2ade182](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/commit/2ade1822e16ecb22076742fa27883f5a6655541d))
+* **deps:** update updatecli/updatecli-action action to v3.9.0 ([#351](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/issues/351)) ([8d88738](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/commit/8d887380c952bb428aae4937571f413f045d873c))
+
 ## [0.16.35](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/compare/v0.16.34...v0.16.35) (2026-10-07)
 
 
