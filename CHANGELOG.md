@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.16.39](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/compare/v0.16.38...v0.16.39) (2026-11-13)
+
+
+### Miscellaneous Chores
+
+* **deps:** update azure/setup-helm action to v5.1.0 ([#368](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/issues/368)) ([46d7e3f](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/commit/46d7e3f40e5bdd50cfaa29347792d826160ad0bd))
+
 ## [0.16.38](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/compare/v0.16.37...v0.16.38) (2026-11-11)
 
 
