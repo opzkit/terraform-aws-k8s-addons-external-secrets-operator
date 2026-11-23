@@ -1,5 +1,18 @@
 # Changelog
 
+## [0.16.39](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/compare/v0.16.38...v0.16.39) (2026-11-23)
+
+
+### Miscellaneous Chores
+
+* **deps:** update actions/create-github-app-token digest to f418cff ([#373](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/issues/373)) ([5d52c93](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/commit/5d52c935d875e6193a331d34aff477a1003ac2ee))
+* **deps:** update azure/setup-helm action to v5.1.0 ([#368](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/issues/368)) ([46d7e3f](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/commit/46d7e3f40e5bdd50cfaa29347792d826160ad0bd))
+* **deps:** update dependency helm to v4.3.2 ([#372](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/issues/372)) ([c6921ec](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/commit/c6921ec2002b31557e402c18a13fe64aaeb98cea))
+* **deps:** update pre-commit hook antonbabenko/pre-commit-terraform to v1.109.5 ([#370](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/issues/370)) ([f8e2e9c](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/commit/f8e2e9ce6bf8c893c3bdf497ee67e24376972075))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v44.236.4 ([#371](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/issues/371)) ([ee53b67](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/commit/ee53b6783eaa9ee353231e038b69c74f36d25dad))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v44.255.1 ([#375](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/issues/375)) ([4a7d254](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/commit/4a7d2546850fcb7992ed00c99923be5201eb17c8))
+* **deps:** update updatecli/updatecli-action action to v3.11.0 ([#374](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/issues/374)) ([68b9df1](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/commit/68b9df1d2fc47ab950c7f18c9d64177b2d3a06b9))
+
 ## [0.16.38](https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator/compare/v0.16.37...v0.16.38) (2026-11-11)
 
 
